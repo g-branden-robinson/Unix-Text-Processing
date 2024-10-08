@@ -205,7 +205,6 @@ Version of 16 November 2002
 .\}
 .nr chapter_page2 1		\" Next page starts a chapter, so no header
 .if \\n[%]>1 .bp
-.nr PN \\n[%]
 .ie '\\$3'NONE' .af PN i
 .el .af PN 1
 .nr chapter_page 1      \" This page starts a chapter, number at bottom
@@ -640,7 +639,6 @@ Version of 16 November 2002
 \#
 .de utp_top
 .ev header_footer
-.nr PN \\n[%]
 .if !\\n[chapter_page2] \{.   \" if this page doesn't start a chapter
 .	ie o .tl ''\\*[chapter_name]'\\n[PN]'
 .	el .tl '\\n[PN]'\*[square]  Unix Text Processing  \*[square]''
