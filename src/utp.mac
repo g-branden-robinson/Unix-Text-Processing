@@ -10,6 +10,9 @@ book available again.
 
 Version of 16 November 2002
 ..
+.ftr C  CR
+.ftr CW CR
+.ftr H  HR
 .RT
 .nr nH 0                \" don't number [ABCD]-heads
 .nr gE 0                \" don't add chapter number to [ABCD]-heads
