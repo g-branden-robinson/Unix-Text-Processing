@@ -255,12 +255,12 @@ Version of 16 November 2002
 .\}
 .el .ds chapter_type Chapter
 .\" If there is a section number, output Type and section number
-.if !'\\$1'' \s14\fB\\*[chapter_type] \\$1\fP\s0
+.if !'\\$1'' \s(14\fB\\*[chapter_type] \\$1\fP\s0
 .\" If there is no section number, but there is a type, then ouput it
-.if '\\$1'' .if !'\\$3'' \s14\fB\\*[chapter_type]\fP\s0
+.if '\\$1'' .if !'\\$3'' \s(14\fB\\*[chapter_type]\fP\s0
 .sp 5p
 .\" Print the section title if there is one
-\#.if !'\\$2'' \s14\fB\\$2\fP\s0
+\#.if !'\\$2'' \s(14\fB\\$2\fP\s0
 .if !'\\$2'' \{\
 .ps 14
 .B
