@@ -386,8 +386,8 @@ Table \\$1: \\$2
 .	\" left or right margin depending on whether if falls on
 .	\" an odd or even page, if you change something prior to
 .	\" calling this, it might shift sides on you.
-.if e .tl '\b:\\$1:'''
-.if o .tl '''\b:\\$1:'
+.if e .tl '\b@\\$1@'''
+.if o .tl '''\b@\\$1@'
 .lt -.5i
 .po +.25i
 .cs B
