@@ -3162,16 +3162,16 @@ selections a user would select to reach a given command.
 For example:
 .LP
 .in 5n
-.BX \s-2M\s0\c
+.BX \s-2M\s0
 ain menu
 .in +5n
-.BX \s-2P\s0\c
+.BX \s-2P\s0
 ortfolio commands
 .in +5n
-.BX \s-2E\s0\c
+.BX \s-2E\s0
 valuate portfolios
 .in +5n
-.BX \s-2S\s0\c
+.BX \s-2S\s0
 hock factors
 .in 0
 .PP
