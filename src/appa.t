@@ -1126,8 +1126,8 @@ Ahead or back to line matching
 .\" The list below need larger space between items.
 .\" /Andreas 2002-10-21
 .TS
-tab(#), expand;
-lfCW lw(4i).
+tab(#);
+lfCW lx.
 abbrev#T{
 .CW ab[\c
 .I "string text"\c
