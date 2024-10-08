@@ -1927,7 +1927,7 @@ drawing command as if it were a separate word.
 .page 459
 .RS
 .TS
-lf(CW) lw(4.5i).
+lf(CW) lx.
 T{
 \\v'-.25i'\\c
 T}	T{
