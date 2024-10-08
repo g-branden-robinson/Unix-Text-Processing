@@ -201,7 +201,6 @@ Version of 16 November 2002
 .                       \" Might be Preface, etc. so no error diag.
 .\}
 .nr chapter_page2 1		\" Next page starts a chapter, so no header
-.if \\n[%]>1 .bp
 .ie '\\$3'NONE' .af PN i
 .el .af PN 1
 .nr chapter_page 1      \" This page starts a chapter, number at bottom
