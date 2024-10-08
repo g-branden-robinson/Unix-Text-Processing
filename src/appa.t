@@ -522,10 +522,10 @@ command.
 .\" larger, for readability and to match the paper UTP.
 .\" /Andreas 2002-10-21
 .TS
-tab(#), expand;
-cbw(1i) 2 L 2 cbw(1.2i) 2 L 2 cbw(6i-3i)
+tab(#);
+cbw(1i) 2 L 2 cbw(1.2i) 2 L 2 cb
 cb        L cb            L   cb
-LfCW      L CfCW          L   L.
+LfCW      L CfCW          L   Lx.
 Option
 (Abbreviation)##Default##Description
 _##_##_
