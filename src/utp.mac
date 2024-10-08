@@ -160,10 +160,7 @@ Version of 16 November 2002
 .de Se                  \" Section. $1: number, $2: name
 .                       \" $3: type (Chapter, Appendix, ...)
 .						\" $4: non-null => don't map to uppercase
-.if e \{\
-\&
-.bp
-.\}
+.if e .bp
 .ds chapter_name \\$2
 .ie !'\\$1'' \{.		\" If we have a section number
 .	ds chapter_head \\$1
