@@ -2860,4 +2860,3 @@ because you can store the commands in named buffers
 and access them in any file you edit.
 .ix %end [ex] editor %key ex editor
 .ix %end [vi] editor %key vi editor
-
