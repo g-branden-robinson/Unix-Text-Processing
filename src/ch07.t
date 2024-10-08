@@ -1,5 +1,3 @@
-
-
 .ig
 	Typed up by: Heinz-Jürgen Oertel
 	Marked up by: Heinz-Jürgen Oertel
